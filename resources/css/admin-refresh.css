@@ -1,0 +1,394 @@
+.brand-mark {
+    display: grid;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    place-items: center;
+    border-radius: 0;
+    color: #fff;
+    background: transparent;
+    box-shadow: none;
+}
+
+.brand-mark-svg {
+    display: block;
+    width: 29px;
+    height: 29px;
+}
+
+.sidebar {
+    width: 258px;
+    padding: 29px 18px 18px;
+    color: #eff6ff;
+    background: linear-gradient(180deg, #142c49, #10243d);
+    border-right: 0;
+    box-shadow: 8px 0 28px #18304d0a;
+}
+
+.sidebar .brand {
+    gap: 12px;
+    padding: 0 7px;
+    color: #f6f9fe;
+}
+
+.sidebar .brand strong {
+    font-size: 14px;
+    letter-spacing: .065em;
+}
+
+.sidebar .brand small {
+    color: #9db1c9;
+    font-size: 7px;
+    opacity: 1;
+}
+
+.sidebar .brand > .brand-mark {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.side-label {
+    margin-top: 45px;
+    color: #7990aa;
+}
+
+.side-nav {
+    gap: 7px;
+}
+
+.side-nav > a {
+    min-height: 44px;
+    color: #b5c6d9;
+    border: 1px solid transparent;
+    transition: color .18s ease, background .18s ease, transform .18s ease;
+}
+
+.side-nav > a:hover {
+    color: #fff;
+    background: #ffffff0d;
+}
+
+.side-nav > a.active {
+    color: #fff;
+    background: linear-gradient(110deg, #3479d2, #2a68b3);
+    box-shadow: 0 7px 16px #07182c3b;
+}
+
+.nav-icon {
+    color: inherit;
+}
+
+.nav-count,
+.active .nav-count {
+    color: #e8f2ff;
+    background: #ffffff20;
+}
+
+.support-card {
+    color: #f3f8ff;
+    background: linear-gradient(145deg, #1b395c, #17304f);
+    border-color: #294564;
+}
+
+.support-icon {
+    color: #70dfd1;
+    background: #214866;
+}
+
+.support-card p {
+    color: #a8bbd0;
+}
+
+.user-card {
+    border-color: #29415e;
+}
+
+.user-meta strong {
+    color: #f1f6fc;
+}
+
+.user-meta small,
+.logout-button {
+    color: #9eb3ca;
+}
+
+.logout-button:hover {
+    color: #fff;
+}
+
+.main-panel {
+    margin-left: 258px;
+    background: #f4f7fb;
+}
+
+.topbar {
+    height: 72px;
+    padding: 0 38px;
+    background: #ffffffed;
+    border-color: #e8edf4;
+    box-shadow: 0 4px 16px #1b36500a;
+    backdrop-filter: blur(12px);
+}
+
+.breadcrumb {
+    color: #8796a9;
+}
+
+.breadcrumb strong {
+    color: #304660;
+}
+
+.today-label {
+    padding: 8px 11px;
+    border: 1px solid #e9eef4;
+    border-radius: 7px;
+    background: #fafbfd;
+}
+
+.top-avatar {
+    width: 34px;
+    height: 34px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px #dae6f3;
+}
+
+.page-content {
+    width: min(100%, 1320px);
+    padding: 34px 38px 34px;
+}
+
+.page-heading {
+    margin-bottom: 25px;
+}
+
+.page-heading h1 {
+    color: #172b43;
+    font-size: 27px;
+}
+
+.page-heading p {
+    color: #8291a4;
+}
+
+.button-primary {
+    min-height: 42px;
+    border-radius: 9px;
+    background: linear-gradient(120deg, #3984dc, #2d71c4);
+    box-shadow: 0 6px 14px #3479d229;
+}
+
+.button-primary:hover {
+    background: linear-gradient(120deg, #3178ca, #255fa7);
+}
+
+.welcome-banner {
+    min-height: 165px;
+    padding: 28px 32px;
+    border: 1px solid #315f8e;
+    border-radius: 15px;
+    background: radial-gradient(ellipse at 85% 20%, #ffffff21, transparent 30%), linear-gradient(110deg, #193d66, #245985 68%, #2d7097);
+    box-shadow: 0 12px 25px #16395b1a;
+}
+
+.welcome-banner h2 {
+    font-size: 24px;
+}
+
+.banner-art {
+    right: 9%;
+    width: 140px;
+    height: 115px;
+}
+
+.art-folder {
+    width: 91px;
+    height: 69px;
+    border-radius: 14px;
+    background: #ffffff1a;
+    box-shadow: 0 13px 28px #061a2d2b;
+}
+
+.stats-grid {
+    gap: 16px;
+    margin-bottom: 22px;
+}
+
+.stat-card,
+.panel {
+    border-color: #e9eef4;
+    border-radius: 13px;
+    box-shadow: 0 5px 16px #1d36500a;
+}
+
+.stat-card {
+    min-height: 126px;
+    padding: 17px 18px;
+    transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px #1d365012;
+}
+
+.stat-top {
+    color: #71839a;
+}
+
+.stat-icon {
+    width: 31px;
+    height: 31px;
+    border-radius: 9px;
+}
+
+.stat-card > strong {
+    margin-top: 8px;
+    color: #172e49;
+    font-size: 26px;
+}
+
+.panel-heading {
+    padding: 19px 21px;
+}
+
+.panel-heading h2 {
+    font-size: 14px;
+}
+
+.panel-heading p {
+    color: #8998aa;
+}
+
+.records-panel {
+    border-radius: 13px;
+}
+
+.toolbar {
+    padding: 16px 19px;
+}
+
+.search-form,
+.filter-form select {
+    height: 40px;
+    border-color: #e2e9f1;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.table-scroll table {
+    min-width: 820px;
+}
+
+th {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background: #f9fbfd;
+}
+
+td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+tbody tr {
+    transition: background .15s ease;
+}
+
+tbody tr:hover {
+    background: #f9fbfe;
+}
+
+.status-badge {
+    padding: 6px 9px;
+}
+
+.data-form {
+    border-radius: 13px;
+    padding: 25px 27px;
+    box-shadow: 0 8px 22px #1d36500b;
+}
+
+.field input,
+.field select,
+.field textarea {
+    border-color: #e0e7ef;
+    border-radius: 8px;
+    transition: border-color .16s ease, box-shadow .16s ease;
+}
+
+.form-actions {
+    padding-top: 19px;
+}
+
+.footer {
+    background: #fff;
+}
+
+@media (max-width: 1000px) {
+    .sidebar {
+        width: 230px;
+    }
+
+    .main-panel {
+        margin-left: 230px;
+    }
+
+    .page-content {
+        padding: 27px 24px;
+    }
+
+    .topbar {
+        padding: 0 24px;
+    }
+}
+
+@media (max-width: 760px) {
+    .sidebar {
+        width: 270px;
+        transform: translateX(-105%);
+    }
+
+    .main-panel {
+        margin-left: 0;
+    }
+
+    .topbar {
+        height: 62px;
+        padding: 0 18px;
+    }
+
+    .page-content {
+        padding: 23px 17px;
+    }
+
+    .welcome-banner {
+        min-height: 148px;
+        padding: 22px;
+    }
+
+    .banner-art {
+        right: 1%;
+        opacity: .72;
+        transform: translate(12%, -50%) scale(.8);
+    }
+}
+
+@media (max-width: 480px) {
+    .page-heading h1 {
+        font-size: 22px;
+    }
+
+    .stat-card {
+        min-height: 112px;
+        padding: 13px 12px;
+    }
+
+    .stat-card > strong {
+        font-size: 23px;
+    }
+
+    .data-form {
+        padding: 17px;
+    }
+}

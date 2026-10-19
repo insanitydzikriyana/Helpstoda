@@ -1,0 +1,51 @@
+.field .file-input {
+    height: auto;
+    padding: 7px;
+    background: #fbfcfe;
+}
+
+.field .file-input::file-selector-button {
+    margin-right: 10px;
+    border: 1px solid #dfe7f0;
+    border-radius: 5px;
+    background: #fff;
+    color: #536b84;
+    padding: 6px 9px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.optional-label {
+    margin-left: 5px;
+    color: #96a4b5;
+    font-size: 8px;
+    letter-spacing: .08em;
+}
+
+.field-hint,
+.attached-file small {
+    display: block;
+    color: #94a1b1;
+    font-size: 9px;
+    line-height: 1.5;
+    margin-top: 7px;
+}
+
+.attached-file {
+    border: 1px solid #e7edf4;
+    border-radius: 7px;
+    background: #f9fbfd;
+    padding: 9px 11px;
+    margin-top: 10px;
+}
+
+.attached-file a {
+    color: #397dcc;
+    font-size: 10px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.attached-file small {
+    margin-top: 3px;
+}
